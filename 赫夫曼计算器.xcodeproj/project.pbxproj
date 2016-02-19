@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		899D88C51B46BBF400ACD795 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 899D88C41B46BBF400ACD795 /* Icon.png */; };
-		899D88C71B46BC1D00ACD795 /* symbol.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 899D88C61B46BC1D00ACD795 /* symbol.jpg */; };
 		89C054761B2DC88D00C23ED3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C054751B2DC88D00C23ED3 /* main.m */; };
 		89C054791B2DC88D00C23ED3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C054781B2DC88D00C23ED3 /* AppDelegate.m */; };
 		89C0547C1B2DC88D00C23ED3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C0547B1B2DC88D00C23ED3 /* ViewController.m */; };
@@ -16,7 +14,6 @@
 		89C054811B2DC88D00C23ED3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89C054801B2DC88D00C23ED3 /* Images.xcassets */; };
 		89C054841B2DC88D00C23ED3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89C054821B2DC88D00C23ED3 /* LaunchScreen.xib */; };
 		89C054901B2DC88D00C23ED3 /* homework1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C0548F1B2DC88D00C23ED3 /* homework1Tests.m */; };
-		89C054A11B2EBDBA00C23ED3 /* change.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C054A01B2EBDBA00C23ED3 /* change.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,8 +27,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		899D88C41B46BBF400ACD795 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
-		899D88C61B46BC1D00ACD795 /* symbol.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = symbol.jpg; sourceTree = "<group>"; };
 		89C054701B2DC88D00C23ED3 /* homework1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = homework1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89C054741B2DC88D00C23ED3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		89C054751B2DC88D00C23ED3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -45,8 +40,6 @@
 		89C054891B2DC88D00C23ED3 /* homework1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = homework1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		89C0548E1B2DC88D00C23ED3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		89C0548F1B2DC88D00C23ED3 /* homework1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = homework1Tests.m; sourceTree = "<group>"; };
-		89C054A01B2EBDBA00C23ED3 /* change.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = change.m; sourceTree = "<group>"; };
-		89C054A21B2EBDCB00C23ED3 /* change.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = change.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +89,6 @@
 				89C054801B2DC88D00C23ED3 /* Images.xcassets */,
 				89C054821B2DC88D00C23ED3 /* LaunchScreen.xib */,
 				89C054731B2DC88D00C23ED3 /* Supporting Files */,
-				89C054A01B2EBDBA00C23ED3 /* change.m */,
 			);
 			path = homework1;
 			sourceTree = "<group>";
@@ -105,10 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				89C054741B2DC88D00C23ED3 /* Info.plist */,
-				899D88C41B46BBF400ACD795 /* Icon.png */,
-				899D88C61B46BC1D00ACD795 /* symbol.jpg */,
 				89C054751B2DC88D00C23ED3 /* main.m */,
-				89C054A21B2EBDCB00C23ED3 /* change.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -210,9 +199,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				899D88C51B46BBF400ACD795 /* Icon.png in Resources */,
 				89C0547F1B2DC88D00C23ED3 /* Main.storyboard in Resources */,
-				899D88C71B46BC1D00ACD795 /* symbol.jpg in Resources */,
 				89C054841B2DC88D00C23ED3 /* LaunchScreen.xib in Resources */,
 				89C054811B2DC88D00C23ED3 /* Images.xcassets in Resources */,
 			);
@@ -233,7 +220,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				89C0547C1B2DC88D00C23ED3 /* ViewController.m in Sources */,
-				89C054A11B2EBDBA00C23ED3 /* change.m in Sources */,
 				89C054791B2DC88D00C23ED3 /* AppDelegate.m in Sources */,
 				89C054761B2DC88D00C23ED3 /* main.m in Sources */,
 			);
@@ -365,7 +351,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = homework1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = homework1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
@@ -375,7 +361,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = homework1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = homework1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
@@ -393,7 +379,7 @@
 				);
 				INFOPLIST_FILE = homework1Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = homework1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/homework1.app/homework1";
 			};
 			name = Debug;
@@ -408,7 +394,7 @@
 				);
 				INFOPLIST_FILE = homework1Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = homework1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/homework1.app/homework1";
 			};
 			name = Release;
@@ -432,7 +418,6 @@
 				89C054951B2DC88D00C23ED3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 		89C054961B2DC88D00C23ED3 /* Build configuration list for PBXNativeTarget "homework1Tests" */ = {
 			isa = XCConfigurationList;
@@ -441,7 +426,6 @@
 				89C054981B2DC88D00C23ED3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
